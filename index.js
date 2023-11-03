@@ -1,10 +1,9 @@
 window.onload = () => {
-    var myIndex = 1;
+    var myIndex = 0;
     slideShow();
     setInterval(slideShow, 3000);
 
     function slideShow() {
-
         $('#i' + myIndex).hide();
         myIndex++;
         if (myIndex > 9) {
