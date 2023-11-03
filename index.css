@@ -17,6 +17,27 @@ body {
     height: 100vh;
 }
 
-#i1 {
-    display: block;
+#day {
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+#hour {
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
+}
+
+#minute {
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
+}
+
+#second {
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
 }
