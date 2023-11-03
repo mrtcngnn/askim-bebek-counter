@@ -1,3 +1,11 @@
+body {
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
 .container-fluid {
     display: flex;
     justify-content: center;
@@ -11,11 +19,4 @@
 
 #i1 {
     display: block;
-}
-
-body {
-    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
