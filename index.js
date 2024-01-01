@@ -6,7 +6,7 @@ window.onload = () => {
   function slideShow() {
     $("#i" + myIndex).hide();
     myIndex++;
-    if (myIndex > 11) {
+    if (myIndex > 24) {
       myIndex = 1;
     }
     $("#i" + myIndex).fadeIn(2000);
