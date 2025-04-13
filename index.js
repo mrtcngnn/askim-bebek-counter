@@ -1,7 +1,7 @@
 window.onload = () => {
   var myIndex = 0;
   slideShow();
-  setInterval(slideShow, 3000);
+  setInterval(slideShow, 5000);
 
   function slideShow() {
     $("#i" + myIndex).hide();
